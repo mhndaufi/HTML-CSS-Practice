@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="/images/icon.ico" />
+    <style>
+      .header {
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+      }
+      .first_p {
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 100%;
+        text-align: center;
+      }
+      img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body style="background-color: wheat">
+    <h1 class="header">Muhannad Al-Aufi</h1>
+    <p class="first_p">Hello <b>World</b>!</p>
+    <!--- link as an image
+    <a href="/index101.html" target="_blank">
+      <img src="images/coffee.jpg" alt="coffee mug" />
+    </a>
+    -->
+
+    <button onclick="document.location='index101.html'" title="go to index101">
+      button
+    </button>
+    <br /><br />
+    <a href="/index101.html" target="_blank">LINK</a>
+    <br />
+    <img src="/images/coffee.jpg" alt="coffee mug" usemap="#coffee" />
+    <map name="coffee">
+      <area
+        shape="circle"
+        coords="125, 125, 102"
+        href="index101.html"
+        alt="coffee mug"
+      />
+    </map>
+  </body>
+</html>
